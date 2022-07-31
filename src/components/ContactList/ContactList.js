@@ -10,7 +10,7 @@ export const ContactList = ({ contactList, deleteContact }) => {
             <PFilter>
               {name} : {number}{' '}
             </PFilter>
-            <Button class="btn" type="button" onClick={() => deleteContact(id)}>
+            <Button type="button" onClick={() => deleteContact(id)}>
               Delete
             </Button>
           </ItemLi>
